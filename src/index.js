@@ -10,9 +10,9 @@ console.log(z); // { a: 3, b: 4 }
 
 const s = new Set();
 
-[2, 3, 5, 4, 5, 2, 2].forEach(x => s.add(x));
+[2, 3, 5, 4, 5, 2].forEach(x => s.add(x));
 
 for (let i of s) {
   console.log(i + " -0");
 }
-// this is dev mode.
+// this is dev gg mode.
