@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="edge, IE=11" />
-    <title>黄河地图在线</title>     
-</head>
 
-<body>
-    <div>
-        this is a map client based on vue.
-        things changesd
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="edge, IE=11" />
+        <style>
+            html,
+            body {
+                display: block;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;               
+            }
 
-    </div>
-</body>
+            #main {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;  
+                background-color: rgb(194, 226, 235);             
+            }
+        </style>
+        <title>黄河地图在线</title>
+    </head>
+
+    <body>
+        <div id='main'>         
+            <app></app>
+        </div>
+    </body>
+
 </html>
